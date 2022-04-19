@@ -1,0 +1,17 @@
+install:
+sudo pip3 install virtualenv
+
+make directory:
+mkdir projects
+
+change to directory:
+cd projects/
+
+create a python environment:
+python3 -m venv projects
+
+activate your environment:
+source projects/bin/activate
+
+deactivate 
+source deactivate
